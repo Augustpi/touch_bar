@@ -2,6 +2,17 @@
 
 ![screenshot](https://raw.githubusercontent.com/iamssen/vscode-touchbar/master/doc-images/screenshot.png)
 
+```
+→ƒ      -> go to defination
+→Ref    -> go to referance
+⬓       -> Toggle terminal
+>_      -> Show commands
+/* */   -> Block comment / Comment out selected code
+✎_      -> Rename
+◧       -> Toggle sidebar
+☰↓      -> Copy lines down
+```
+
 # Disable VSCode default Touchbar commands
 
 ![disable-vscode-default-touchbar](https://raw.githubusercontent.com/iamssen/vscode-touchbar/master/doc-images/config.png)
