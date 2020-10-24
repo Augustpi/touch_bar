@@ -1,6 +1,6 @@
 # Screenshot
 
-![screenshot](https://raw.githubusercontent.com/Auguspi/touch_bar/master/doc-images/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/Augustpi/touch_bar/master/doc-images/screenshot.png)
 
 ```
 →ƒ      -> go to defination
@@ -15,7 +15,7 @@
 
 # Disable VSCode default Touchbar commands
 
-![disable-vscode-default-touchbar](https://raw.githubusercontent.com/Auguspi/touch_bar/master/doc-images/config.png)
+![disable-vscode-default-touchbar](https://raw.githubusercontent.com/Augustpi/touch_bar/master/doc-images/config.png)
 
 ```
   "keyboard.touchbar.ignored": [
