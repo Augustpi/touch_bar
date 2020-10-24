@@ -1,6 +1,6 @@
 {
   "name": "vscode-touch-bar",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Touchbar Setting",
   "main": "main.js",
   "scripts": {
@@ -56,6 +56,10 @@
         "command": "editor.action.blockComment",
         "when": "editorHasSelection",
         "title": "//"
+      },
+      {
+        "command": "workbench.action.toggleSidebarVisibility",
+        "title": "◧"
       }
     ],
     "menus": {
@@ -94,6 +98,11 @@
           "command": "editor.action.blockComment",
           "when": "editorHasSelection",
           "title": "//"
+        },
+        {
+          "command": "workbench.action.toggleSidebarVisibility",
+          "when": "terminalFocus",
+          "title": "◧"
         }
       ]
     },
