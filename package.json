@@ -15,7 +15,7 @@
   "bugs": "https://github.com/iamssen/vscode-touchbar/issues",
   "homepage": "https://github.com/iamssen/vscode-touchbar",
   "engines": {
-    "vscode": "^1.17.0"
+    "vscode": "^1.50.0"
   },
   "activationEvents": [
     "*"
