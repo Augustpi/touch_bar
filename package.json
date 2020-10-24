@@ -24,19 +24,19 @@
     "commands": [
       {
         "command": "editor.action.revealDefinition",
-        "title": "Go To Definition"
+        "title": "->Def"
       },
       {
         "command": "editor.action.goToReferences",
-        "title": "Go To References"
+        "title": "->Ref"
+      },
+      {
+        "command": "workbench.action.terminal.openNativeConsole",
+        "title": "iTerm"
       },
       {
         "command": "workbench.action.showCommands",
         "title": "CMD"
-      },
-      {
-        "command": "typescript.restartTsServer",
-        "title": "Restart TSServer"
       },
       {
         "command": "ssen.touchbar.run",
@@ -47,9 +47,9 @@
         "title": "Debug"
       },
       {
-        "command": "workbench.action.terminal.openNativeConsole",
-        "title": "Terminal"
-      }
+        "command": "typescript.restartTsServer",
+        "title": "Restart TSServer"
+      },
     ],
     "menus": {
       "touchBar": [
@@ -62,6 +62,10 @@
           "command": "editor.action.revealDefinition",
           "group": "g1",
           "when": "editorHasDefinitionProvider"
+        },
+        {
+          "command": "workbench.action.terminal.openNativeConsole",
+          "group": "g1"
         },
         {
           "command": "workbench.action.showCommands",
@@ -80,10 +84,6 @@
           "command": "ssen.touchbar.debug",
           "group": "g6",
           "when": "!inDebugMode"
-        },
-        {
-          "command": "workbench.action.terminal.openNativeConsole",
-          "group": "g7"
         }
       ]
     },
