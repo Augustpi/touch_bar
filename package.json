@@ -48,6 +48,11 @@
         "title": "/* */"
       },
       {
+        "command": "editor.action.rename",
+        "when": "editorHasSelection",
+        "title": "✎_"
+      },
+      {
         "command": "editor.action.blockComment",
         "when": "editorHasSelection",
         "title": "//"
@@ -79,6 +84,11 @@
           "command": "editor.action.blockComment",
           "when": "editorHasMultipleSelections",
           "title": "/* */"
+        },
+        {
+          "command": "editor.action.rename",
+          "when": "editorHasSelection",
+          "title": "✎_"
         },
         {
           "command": "editor.action.blockComment",
