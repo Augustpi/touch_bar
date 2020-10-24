@@ -24,66 +24,65 @@
     "commands": [
       {
         "command": "editor.action.revealDefinition",
-        "title": "->Def"
+        "when": "editorHasSelection",
+        "title": "→ƒ"
       },
       {
         "command": "editor.action.goToReferences",
+        "when": "editorHasSelection",
         "title": "->Ref"
       },
       {
         "command": "workbench.action.terminal.openNativeConsole",
-        "title": "iTerm"
+        "when": "editorHasSelection",
+        "title": "⬓"
       },
       {
         "command": "workbench.action.showCommands",
-        "title": "CMD"
+        "when": "editorHasSelection",
+        "title": ">_"
       },
       {
-        "command": "ssen.touchbar.run",
-        "title": "Run"
-      },
-      {
-        "command": "ssen.touchbar.debug",
-        "title": "Debug"
+        "command": "editor.action.blockComment",
+        "when": "editorHasSelection",
+        "title": "/* */"
       },
       {
         "command": "typescript.restartTsServer",
-        "title": "Restart TSServer"
+        "when": "g2",
+        "title": "↻ TsServer"
       }
     ],
     "menus": {
       "touchBar": [
         {
-          "command": "editor.action.goToReferences",
-          "group": "g2",
-          "when": "editorHasReferenceProvider"
+          "command": "editor.action.revealDefinition",
+          "when": "editorHasSelection",
+          "title": "→ƒ"
         },
         {
-          "command": "editor.action.revealDefinition",
-          "group": "g1",
-          "when": "editorHasDefinitionProvider"
+          "command": "editor.action.goToReferences",
+          "when": "editorHasSelection",
+          "title": "->Ref"
         },
         {
           "command": "workbench.action.terminal.openNativeConsole",
-          "group": "g1"
+          "when": "editorHasSelection",
+          "title": "⬓"
         },
         {
           "command": "workbench.action.showCommands",
-          "group": "g3"
+          "when": "editorHasSelection",
+          "title": ">_"
+        },
+        {
+          "command": "editor.action.blockComment",
+          "when": "editorHasSelection",
+          "title": "/* */"
         },
         {
           "command": "typescript.restartTsServer",
-          "group": "g4"
-        },
-        {
-          "command": "ssen.touchbar.run",
-          "group": "g5",
-          "when": "!inDebugMode"
-        },
-        {
-          "command": "ssen.touchbar.debug",
-          "group": "g6",
-          "when": "!inDebugMode"
+          "group": "g2"
         }
       ]
     },
