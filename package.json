@@ -20,6 +20,20 @@
   "activationEvents": [
     "*"
   ],
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "macbook pro",
+    "touchbar",
+    "extra buttons",
+    "shortcuts",
+    "vscode",
+    "visual studio code",
+    "macbook",
+    "developers",
+    "touch bar"
+  ],
   "contributes": {
     "commands": [
       {
@@ -60,6 +74,31 @@
       {
         "command": "workbench.action.toggleSidebarVisibility",
         "title": "◧"
+      },
+      {
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorFocus",
+        "title": "☰↓"
+      },
+      {
+        "command": "workbench.action.terminal.focusNext",
+        "when": "terminalFocus",
+        "title": "→◧"
+      },
+      {
+        "command": "workbench.action.terminal.focusPrevious",
+        "when": "terminalFocus",
+        "title": "◧←"
+      },
+      {
+        "command": "workbench.action.splitEditor",
+        "when": "terminalFocus",
+        "title": "→◧"
+      },
+      {
+        "command": "editor.action.jumpToBracket",
+        "when": "editorFocus",
+        "title": "→}"
       }
     ],
     "menus": {
@@ -103,6 +142,31 @@
           "command": "workbench.action.toggleSidebarVisibility",
           "when": "terminalFocus",
           "title": "◧"
+        },
+        {
+          "command": "editor.action.copyLinesDownAction",
+          "when": "editorFocus",
+          "title": "☰↓"
+        },
+        {
+          "command": "workbench.action.terminal.focusNext",
+          "when": "terminalFocus",
+          "title": "◧→"
+        },
+        {
+          "command": "workbench.action.terminal.focusPrevious",
+          "when": "terminalFocus",
+          "title": "◧←"
+        },
+        {
+          "command": "workbench.action.splitEditor",
+          "when": "editorFocus",
+          "title": "↝◧"
+        },
+        {
+          "command": "editor.action.jumpToBracket",
+          "when": "editorFocus",
+          "title": "→}"
         }
       ]
     },
