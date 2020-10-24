@@ -1,19 +1,19 @@
 {
-  "name": "vscode-ssen-touchbar",
-  "version": "0.1.2",
-  "description": "SSen's Touchbar Setting",
+  "name": "vscode-touch-bar",
+  "version": "0.0.1",
+  "description": "Touchbar Setting",
   "main": "main.js",
   "scripts": {
     "test": "npm test",
-    "publish": "vsce package && open . && open https://marketplace.visualstudio.com/manage/publishers/iamssen",
+    "publish": "vsce package",
     "pack": "vsce package"
   },
   "author": "Seoyeon Lee <i@ssen.name>",
   "publisher": "iamssen",
   "license": "MIT",
-  "repository": "github:iamssen/vscode-touchbar",
-  "bugs": "https://github.com/iamssen/vscode-touchbar/issues",
-  "homepage": "https://github.com/iamssen/vscode-touchbar",
+  "repository": "https://github.com/Augustpi/touch_bar",
+  "bugs": "https://github.com/Augustpi/touch_bar",
+  "homepage": "https://github.com/Augustpi/touch_bar",
   "engines": {
     "vscode": "^1.50.0"
   },
