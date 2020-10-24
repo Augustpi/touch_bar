@@ -3,6 +3,7 @@
   "version": "0.0.5",
   "description": "Touchbar Setting",
   "main": "main.js",
+  "icon": "doc-images/icon.png",
   "scripts": {
     "test": "npm test",
     "publish": "vsce package",
