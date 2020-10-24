@@ -1,6 +1,6 @@
 {
   "name": "vscode-touch-bar",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Touchbar Setting",
   "main": "main.js",
   "scripts": {
@@ -24,27 +24,27 @@
     "commands": [
       {
         "command": "editor.action.revealDefinition",
-        "when": "editorHasSelection",
+        "when": "editorFocus",
         "title": "→ƒ"
       },
       {
         "command": "editor.action.goToReferences",
-        "when": "editorHasSelection",
+        "when": "editorFocus",
         "title": "->Ref"
       },
       {
         "command": "workbench.action.terminal.openNativeConsole",
-        "when": "editorHasSelection",
+        "when": "editorFocus",
         "title": "⬓"
       },
       {
         "command": "workbench.action.showCommands",
-        "when": "editorHasSelection",
+        "when": "editorFocus",
         "title": ">_"
       },
       {
         "command": "editor.action.blockComment",
-        "when": "editorHasSelection",
+        "when": "editorFocus",
         "title": "/* */"
       },
       {
@@ -57,27 +57,27 @@
       "touchBar": [
         {
           "command": "editor.action.revealDefinition",
-          "when": "editorHasSelection",
+          "when": "editorFocus",
           "title": "→ƒ"
         },
         {
           "command": "editor.action.goToReferences",
-          "when": "editorHasSelection",
+          "when": "editorFocus",
           "title": "->Ref"
         },
         {
           "command": "workbench.action.terminal.openNativeConsole",
-          "when": "editorHasSelection",
+          "when": "editorFocus",
           "title": "⬓"
         },
         {
           "command": "workbench.action.showCommands",
-          "when": "editorHasSelection",
+          "when": "editorFocus",
           "title": ">_"
         },
         {
           "command": "editor.action.blockComment",
-          "when": "editorHasSelection",
+          "when": "editorFocus",
           "title": "/* */"
         },
         {
@@ -88,7 +88,7 @@
     },
     "configuration": {
       "type": "object",
-      "title": "SSen's Touchbar Config"
+      "title": "touchbar"
     }
   }
 }
