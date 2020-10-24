@@ -33,7 +33,7 @@
         "title": "→Ref"
       },
       {
-        "command": "workbench.action.terminal.openNativeConsole",
+        "command": "workbench.action.terminal.toggleTerminal",
         "when": "editorFocus",
         "title": "⬓"
       },
@@ -71,7 +71,7 @@
           "title": "->Ref"
         },
         {
-          "command": "workbench.action.terminal.openNativeConsole",
+          "command": "workbench.action.terminal.toggleTerminal",
           "when": "editorFocus",
           "title": "⬓"
         },
