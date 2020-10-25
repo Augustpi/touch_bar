@@ -20,8 +20,7 @@
 
 # When terminal focus
 ```
-◧→      -> Focus next pane
-◧←      -> Focus previous pane
+←◧→     -> Switch terminal window if splitted
 close   -> hide terminal
 Max-Min -> Maximize-Minimize internal terminal
 ```

@@ -1,6 +1,6 @@
 {
   "name": "vscode-touch-bar",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Touchbar Setting",
   "main": "main.js",
   "icon": "doc-images/icon.png",
@@ -84,12 +84,7 @@
       {
         "command": "workbench.action.terminal.focusNextPane",
         "when": "terminalFocus",
-        "title": "◧→"
-      },
-      {
-        "command": "workbench.action.terminal.focusPrevious",
-        "when": "terminalFocus",
-        "title": "◧←"
+        "title": "←◧→"
       },
       {
         "command": "workbench.action.splitEditor",
@@ -167,12 +162,7 @@
         {
           "command": "workbench.action.terminal.focusNextPane",
           "when": "terminalFocus",
-          "title": "◧→"
-        },
-        {
-          "command": "workbench.action.terminal.focusPrevious",
-          "when": "terminalFocus",
-          "title": "◧←"
+          "title": "←◧→"
         },
         {
           "command": "workbench.action.splitEditor",
