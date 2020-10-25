@@ -1,6 +1,6 @@
 {
   "name": "vscode-touch-bar",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Touchbar Setting",
   "main": "main.js",
   "icon": "doc-images/icon.png",
@@ -82,9 +82,9 @@
         "title": "☰↓"
       },
       {
-        "command": "workbench.action.terminal.focusNext",
+        "command": "workbench.action.terminal.focusNextPane",
         "when": "terminalFocus",
-        "title": "→◧"
+        "title": "◧→"
       },
       {
         "command": "workbench.action.terminal.focusPrevious",
@@ -165,7 +165,7 @@
           "title": "☰↓"
         },
         {
-          "command": "workbench.action.terminal.focusNext",
+          "command": "workbench.action.terminal.focusNextPane",
           "when": "terminalFocus",
           "title": "◧→"
         },
