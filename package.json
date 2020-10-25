@@ -109,7 +109,7 @@
       {
         "command": "workbench.action.toggleMaximizedPanel",
         "when": "terminalFocus",
-        "title": "Maximize"
+        "title": "Max–Min"
       }
     ],
     "menus": {
@@ -192,7 +192,7 @@
         {
           "command": "workbench.action.toggleMaximizedPanel",
           "when": "terminalFocus",
-          "title": "Maximize"
+          "title": "Max–Min"
         }
       ]
     },
