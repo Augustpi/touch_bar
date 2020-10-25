@@ -1,6 +1,6 @@
 {
   "name": "vscode-touch-bar",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Touchbar Setting",
   "main": "main.js",
   "icon": "doc-images/icon.png",
@@ -100,6 +100,16 @@
         "command": "editor.action.jumpToBracket",
         "when": "editorFocus",
         "title": "→}"
+      },
+      {
+        "command": "workbench.action.closePanel",
+        "when": "terminalFocus",
+        "title": "Close"
+      },
+      {
+        "command": "workbench.action.toggleMaximizedPanel",
+        "when": "terminalFocus",
+        "title": "Maximize"
       }
     ],
     "menus": {
@@ -173,6 +183,16 @@
           "command": "editor.action.jumpToBracket",
           "when": "editorFocus",
           "title": "→}"
+        },
+        {
+          "command": "workbench.action.closePanel",
+          "when": "terminalFocus",
+          "title": "Close"
+        },
+        {
+          "command": "workbench.action.toggleMaximizedPanel",
+          "when": "terminalFocus",
+          "title": "Maximize"
         }
       ]
     },
