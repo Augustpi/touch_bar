@@ -20,8 +20,10 @@
 
 # When terminal focus
 ```
-close      -> hide terminal
-Max-Min    -> Maximize-Minimize internal terminal
+◧→      -> Focus next pane
+◧←      -> Focus previous pane
+close   -> hide terminal
+Max-Min -> Maximize-Minimize internal terminal
 ```
 # Disable VSCode default Touchbar commands
 
