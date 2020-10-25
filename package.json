@@ -1,6 +1,6 @@
 {
   "name": "vscode-touch-bar",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Touchbar Setting",
   "main": "main.js",
   "icon": "doc-images/icon.png",
