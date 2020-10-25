@@ -141,6 +141,11 @@
         },
         {
           "command": "workbench.action.toggleSidebarVisibility",
+          "when": "editorFocus",
+          "title": "◧"
+        },
+        {
+          "command": "workbench.action.toggleSidebarVisibility",
           "when": "terminalFocus",
           "title": "◧"
         },
