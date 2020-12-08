@@ -1,12 +1,13 @@
-# Screenshot
+# Vscode Touchbar Extension for macbook
 
-# When editor focus
+## When editor focus
 ![screenshot](https://raw.githubusercontent.com/Augustpi/touch_bar/master/doc-images/screenshot.png)
 
-# When Terminal focus
+## When Terminal focus
 ![screenshot](https://raw.githubusercontent.com/Augustpi/touch_bar/master/doc-images/screenshot1.png)
 
-# When editor focus
+### When editor focus
+
 ```
 →ƒ      -> go to defination
 →Ref    -> go to referance
@@ -18,13 +19,13 @@
 ☰↓      -> Copy lines down
 ```
 
-# When terminal focus
+### When terminal focus
 ```
 ←◧→     -> Switch terminal window if splitted
 close   -> hide terminal
 Max-Min -> Maximize-Minimize internal terminal
 ```
-# Disable VSCode default Touchbar commands
+### Disable VSCode default Touchbar commands
 
 ![disable-vscode-default-touchbar](https://raw.githubusercontent.com/Augustpi/touch_bar/master/doc-images/config.png)
 
@@ -47,6 +48,6 @@ Max-Min -> Maximize-Minimize internal terminal
   ],
 ```
 
-# Customize your own touchbar
+# Install
 
-And read this link <https://code.visualstudio.com/api/working-with-extensions/publishing-extension>
+Install link <https://marketplace.visualstudio.com/items?itemName=AvniOnurPehlivan.vscode-touch-bar>
