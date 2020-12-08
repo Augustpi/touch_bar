@@ -3,11 +3,11 @@ const { exec } = require("child_process");
 
 exports.activate = (context) => {
   context.subscriptions.push(
-    vscode.commands.registercommand("touchbar.run", () => {
-      vscode.commands.executecommand("workbench.action.debug.run");
+    vscode.commands.registercommand("touchbar.forward", () => {
+      vscode.commands.executecommand("workbench.action.navigateForward");
     }),
-    vscode.commands.registercommand("touchbar.debug", () => {
-      vscode.commands.executecommand("workbench.action.debug.start");
+    vscode.commands.registercommand("touchbar.back", () => {
+      vscode.commands.executecommand("workbench.action.navigateBack");
     })
   );
 };

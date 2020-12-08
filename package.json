@@ -1,6 +1,6 @@
 {
   "name": "vscode-touch-bar",
-  "version": "0.0.11",
+  "version": "0.0.13",
   "description": "Touchbar Setting",
   "main": "main.js",
   "icon": "doc-images/icon.png",
@@ -40,7 +40,8 @@
       {
         "command": "editor.action.revealDefinition",
         "when": "editorFocus",
-        "title": "→ƒ"
+        "title": "→ƒ",
+        "color": "red"
       },
       {
         "command": "editor.action.goToReferences",
@@ -188,7 +189,19 @@
     },
     "configuration": {
       "type": "object",
-      "title": "touchbar"
+      "title": "touchbar",
+      "properties": {
+        "touchbar.back": {
+          "type": "boolean",
+          "default": true,
+          "description": "←"
+        },
+        "touchbar.forward": {
+          "type": "boolean",
+          "default": true,
+          "description": "→"
+        }
+      }
     }
   }
 }
